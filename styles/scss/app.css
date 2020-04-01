@@ -1,0 +1,276 @@
+html, body, h1, h2, h3, p, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Roboto, sans-serif; }
+
+.pos-abs {
+  position: absolute; }
+
+.pos-relat {
+  position: relative; }
+
+.dflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.header-pos {
+  left: 50%;
+  width: 1200px;
+  margin-left: -600px; }
+
+.container {
+  width: 1200px; }
+
+.m-0-auto {
+  margin: 0 auto; }
+
+.first-screen {
+  background-image: url(../images/banner.png);
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.mt-25 {
+  margin-top: 25px; }
+
+.logo img {
+  width: 20px;
+  height: 20px; }
+
+.pt-221 {
+  padding-top: 221px; }
+
+.fw-b {
+  font-weight: bold; }
+
+.color-white {
+  color: #fff; }
+
+.fz-11 {
+  font-size: 11px; }
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.ml-4 {
+  margin-left: 4px; }
+
+.active-link {
+  color: #fff; }
+
+.text-decor-none {
+  text-decoration: none; }
+
+.mt-29 {
+  margin-top: 29px; }
+
+.pt-25 {
+  padding-top: 25px; }
+
+.link {
+  color: #808080; }
+
+.lh-13 {
+  line-height: 13px; }
+
+.ml-113 {
+  margin-left: 113px; }
+
+.mr-75 {
+  margin-right: 75px; }
+
+.sect-wrap {
+  width: 50%; }
+
+.mr-30 {
+  margin-right: 30px; }
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.border-n {
+  border: none; }
+
+.outline-n {
+  outline: none; }
+
+.br-50 {
+  border-radius: 50px; }
+
+.search-form {
+  background-color: #3C3B3D;
+  padding: 9px 220px 8px 14px;
+  color: #808080; }
+
+.fz-60 {
+  font-size: 60px; }
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.mt-217 {
+  margin-top: 217px; }
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.lh-70 {
+  line-height: 70px; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.mb-45 {
+  margin-bottom: 45px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.main-input input {
+  padding: 17px 221px 17px 20px; }
+
+.main-input-bg-color {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.main-input-border {
+  border: 2px solid rgba(255, 255, 255, 0.1); }
+
+.mr-30 {
+  margin-right: 30px; }
+
+.fz-14 {
+  font-size: 14px; }
+
+.lh-16 {
+  line-height: 16px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.access {
+  padding: 17px 222px; }
+
+.main-btn-bg {
+  background-color: #34C176; }
+
+.br-3 {
+  border-radius: 3px; }
+
+.pt-100 {
+  padding-top: 100px; }
+
+.bg-black {
+  background-color: #08020d; }
+
+.fz-38 {
+  font-size: 38px; }
+
+.text-center {
+  text-align: center; }
+
+.pb-51 {
+  padding-bottom: 51px; }
+
+.w-30 {
+  width: 30%; }
+
+.height-582 {
+  height: 582px; }
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.item-1 {
+  background-image: url(../images/subscribe_1.png); }
+
+.item-2 {
+  background-image: url(../images/subscribe_2.png); }
+
+.item-3 {
+  background-image: url(../images/subscribe_3.png); }
+
+.item {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.upper {
+  text-transform: uppercase; }
+
+.pb-230 {
+  padding-bottom: 230px; }
+
+.fz-24 {
+  font-size: 24px; }
+
+.lh-28 {
+  line-height: 28px; }
+
+.fz-30 {
+  font-size: 30px; }
+
+.align-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.pt-223 {
+  padding-top: 223px; }
+
+.pt-230 {
+  padding-top: 230px; }
+
+.lh-60 {
+  line-height: 60px; }
+
+.pl-11 {
+  padding-left: 11px; }
+
+.pb-40 {
+  padding-bottom: 40px; }
+
+.transp {
+  background-color: transparent; }
+
+.subscribe {
+  border: 4px solid #fff;
+  padding: 20px 80px; }
+
+.pb-60 {
+  padding-bottom: 60px; }
+
+.lh-13 {
+  line-height: 13px; }
+
+.pl-20 {
+  padding-left: 20px; }
+
+.pr-20 {
+  padding-right: 20px; }
+
+.pt-50 {
+  padding-top: 50px; }
+
+.fz-22 {
+  font-size: 22px; }
+
+.pb-100 {
+  padding-bottom: 100px; }
+
+.lh-45 {
+  line-height: 45px; }
+
+.w-50 {
+  width: 50%; }
