@@ -143,7 +143,7 @@ body {
   padding: 17px 221px 17px 20px; }
 
 .access {
-  padding: 17px 222px; }
+  padding: 17px 218px; }
 
 .pt-100 {
   padding-top: 100px; }
@@ -199,6 +199,9 @@ body {
 .pb-50 {
   padding-bottom: 50px; }
 
+.pt-250 {
+  padding-top: 250px; }
+
 .fw-b {
   font-weight: bold; }
 
@@ -213,6 +216,9 @@ body {
 
 .fz-14 {
   font-size: 14px; }
+
+.fz-13 {
+  font-size: 13px; }
 
 .fz-38 {
   font-size: 38px; }
@@ -231,6 +237,12 @@ body {
 
 .fz-16 {
   font-size: 16px; }
+
+.fz-30 {
+  font-size: 30px; }
+
+.fz-18 {
+  font-size: 18px; }
 
 .lh-13 {
   line-height: 13px; }
@@ -315,6 +327,9 @@ body {
 .w-20 {
   width: 20%; }
 
+.w-10 {
+  width: 10%; }
+
 .br-50 {
   border-radius: 50px; }
 
@@ -350,7 +365,7 @@ body {
 
 .search-form {
   background-color: #3C3B3D;
-  padding: 9px 220px 8px 14px;
+  padding: 4px 217px 4px 13px;
   color: #808080; }
 
 .text-center {
@@ -399,10 +414,10 @@ img.news {
   padding-right: 14px; }
 
 .mix {
-  padding: 17px 110px 17px 17px; }
+  padding: 15px 110px 15px 17px; }
 
 .favourites {
-  padding: 17px 73px 17px 17px; }
+  padding: 15px 47px 15px 17px; }
 
 .favourites::before {
   font-family: "FontAwesome";
@@ -410,9 +425,6 @@ img.news {
   display: inline-block;
   color: #fff;
   padding-right: 14px; }
-
-.footer-menu {
-  width: 100%; }
 
 .wrap {
   -ms-flex-wrap: wrap;
@@ -597,7 +609,7 @@ img.news {
     margin-bottom: 20px; }
 
   .access {
-    padding: 17px 126px; }
+    padding: 17px 218px; }
 
   .w-song {
     width: 80%;
@@ -1321,9 +1333,6 @@ img.news {
 
   .subscribe {
     padding: 12px 48px; }
-
-  .search-form {
-    padding: 9px 169px 8px 14px; }
 
   .fz-h4 {
     font-size: 18px; }
