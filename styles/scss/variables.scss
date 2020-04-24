@@ -7,6 +7,10 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
+* {
+	box-sizing: border-box;;
+}
+
 // Colors
 
 $white: #fff;
@@ -446,6 +450,10 @@ $list1: $color-grad1 32.83%, $color-grad2 81.56%;
 	border-radius: 3px;
 }
 
+.br-4 {
+	border-radius: 4px;
+}
+
 // 
 
 .pos-abs {
@@ -568,12 +576,20 @@ $list1: $color-grad1 32.83%, $color-grad2 81.56%;
 	text-align: center;
 	text-transform: uppercase;
 	height: 70px;
-	width: 80%;
+	width: 100%;
 }
 
 .btn-news {
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
 	text-transform: uppercase;
 	color: $grey;
+	border: 1px solid $btn-news;
+	height: 40px;
+	text-align: center;
+	width: 30%;
 }
 
 
@@ -606,14 +622,6 @@ $list1: $color-grad1 32.83%, $color-grad2 81.56%;
 	background-color: $bg-orange;
 }
 
-// .mix {
-// 	padding: 15px 110px 15px 17px;
-// }
-
-// .favourites {
-// 	padding: 15px 47px 15px 17px;
-// }
-
 .btn-favourites::before {
 	font-family: "FontAwesome";
 	content: '\f004';
@@ -621,18 +629,35 @@ $list1: $color-grad1 32.83%, $color-grad2 81.56%;
 	color: $white;
 	padding-right: 14px;
 }
+
+.btn-download {
+	height: 50px;
+	width: 25%;
+}
+
 // Headings
 
-.h3-title {
-	color: $white;
+.h2-title {
 	font-size: 38px;
 	text-align: center;
 	padding-bottom: 51px;
 	line-height: 45px;
+}
+
+h2 {
+	color: $white;
 	text-transform: uppercase;
 }
 
-.h4-title-news {
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	color: $white;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+
+.h3-title-news {
 	font-size: 30px;
 	line-height: 35px;
 	margin-bottom: 25px;
@@ -643,6 +668,12 @@ $list1: $color-grad1 32.83%, $color-grad2 81.56%;
 .pricing {
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 52px;
+	display: flex;
+	flex-direction: column;
 }
 
 .pricing-title {
@@ -651,7 +682,7 @@ $list1: $color-grad1 32.83%, $color-grad2 81.56%;
 	text-align: center;
 	font-size: 24px;
 	line-height: 28px;
-	padding-top: 25px;
+	// padding-top: 25px;
 }
 
 .disco {
@@ -664,13 +695,20 @@ $list1: $color-grad1 32.83%, $color-grad2 81.56%;
 	height: auto;
 }
 
-
-
-
-.btn-news {
-	border: 1px solid $btn-news;
-	padding: 15px 25px;
+.disco-div {
+	position: relative;
 }
+
+.disco-div::before {
+	display: flex;
+	content: url(../images/play-button.svg);
+	position: absolute;
+	top: 85%;
+	left: 1%;
+	width: 20px;
+}
+
+
 
 // .main-input input{
 // 	height: 50px;
@@ -961,10 +999,6 @@ img.news {
 
 	.h2-fz {
 		font-size: 18px;
-	}
-
-	.fz-access {
-		font-size: 12px;
 	}
 
 	.input-w {
@@ -1266,9 +1300,6 @@ img.news {
 		width: 80%;
 	}
 
-	.btn-mobile {
-	    padding: 17px 135px;
-	}
 
 	.footer-width {
 		width: 80%;
@@ -1309,7 +1340,7 @@ img.news {
 		margin-bottom: 20px;
 	}
 
-	.fz-h3 {
+	.fz-h2 {
 		font-size: 28px;
 	}
 
