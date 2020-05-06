@@ -20,73 +20,81 @@
 				<a href="#" class="text-decor-none fz-11 link lh-13 mr-30 nav-a fw-b upper">Исполнители</a>
 				<a href="#" class="text-decor-none fz-11 link lh-13 mr-75 nav-a fw-b upper">Контакты</a>
 			</nav>				
-			<div class="sect-wrap dflex justify-end justify-center-min order-2 justify-start-min pt-search w-50">
-				<input placeholder="ПОИСК..." type="search" class="search-form fz-11 border-n outline-n br-50">
+			<div class="sect-wrap dflex justify-end order-2 justify-start-min pt-search w-50 search-min">
+				<input placeholder="ПОИСК..." type="search" class="search-form fz-11 border-n outline-n br-50 w-100-min">
 			</div>
 		</div>
 	</header>
 	<section class="first-screen">
 		<div class="container dflex flex-column align-center pt-250">
-			<h1 class="h1-fz mb-10 text-center">Онлайн музыка где угодно</h1>
-			<h2 class="color-white mb-45 fz-30 fw-b upper h2-m-b h2-fz">Без ограничений</h2>	
+			<h1 class="mb-10 text-center">Онлайн музыка где угодно</h1>
+			<h2 class="color-white mb-45 fz-30 fw-b upper h2-m-b">Без ограничений</h2>	
 			<p class="color-white fw-b fz-18 mb-40 fz-access text-center">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
 			<form action="#" class="form">
 				<div class="main-input mb-30 dflex input">
-					<input type="text" size="1" placeholder="Имя" class="color-white main-input-bg-color mr-30 w-50 fz-13 fw-b mr-0 mb-input form-input br-3">
-					<input type="password" size="1" placeholder="Email" class="color-white main-input-bg-color fz-13 w-50 fw-b form-input br-3">
+					<input type="text" size="1" placeholder="Имя" class="color-white main-input-bg-color mr-30 w-50 fz-13 fw-b mr-0 mb-input form-input br-3 outline-n">
+					<input type="text" size="1" placeholder="Email" class="color-white main-input-bg-color fz-13 w-50 fw-b form-input br-3 outline-n">
 				</div>
-				<input type="button" value="Получить доступ" class="btn-green btn btn-access">
+				<div class="dflex w-100 justify-center">
+					<input type="button" value="Получить доступ" class="btn-green btn btn-access">
+				</div>
 			</form>
 		</div>
 	</section>
 	<main class="bg-black">
 		<section class="container pt-100 pb-100">
-			<h2 class="h2-title fz-h2">Формы подписки</h3>
-			<div class="dflex justify-between">
-				<div class="pricing-free w-30 pricing it-em height-582 justify-between">
+			<h2>Формы подписки</h2>
+			<div class="dflex justify-between flex-wrap justify-center-min">
+				<div class="pricing-free w-30 pricing it-em justify-between">
 					<p class="pricing-title">Бесплатная</p>
-					<div class="dflex justify-center align-start pt-223 pb-40">
-						<span class="color-white fz-60 lh-60">0</span>
-						<span class="color-white fz-30 upper pl-11">руб.</span>
+					<div class="pricing-body">
+						<div class="dflex justify-center align-start pb-40">
+							<span class="color-white fz-60 lh-60">0</span>
+							<span class="color-white fz-30 upper pl-11">руб.</span>
+						</div>
+						<div class="dflex justify-center pb-60">
+							<input type="button" value="Оформить" class="transp btn btn-subscribe br-4">
+						</div>
+						<p class="color-white fz-11 lh-13 pr-20 pl-20 text-center">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
 					</div>
-					<div class="dflex justify-center pb-60">
-						<input type="button" value="Оформить" class="transp btn btn-subscribe br-4">
-					</div>
-					<p class="color-white fz-11 lh-13 pr-20 pl-20 text-center">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
 				</div>
-				<div class="pricing-standart w-30 pricing it-em height-582 justify-between">
+				<div class="pricing-standart w-30 pricing it-em justify-between">
 					<p class="pricing-title">Стандартная</p>
-					<div class="dflex justify-center align-start pt-223 pb-40">
-						<span class="color-white fz-60 lh-60">250</span>
-						<span class="color-white fz-30 upper pl-11">руб.</span>
-					</div>
-					<div class="dflex justify-center pb-60">
-						<input type="button" value="Оформить" class="transp btn btn-subscribe br-4">
-					</div>
-					<p class="color-white fz-11 lh-13 pr-20 pl-20 text-center">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
+					<div class="pricing-body">
+						<div class="dflex justify-center align-start pb-40">
+							<span class="color-white fz-60 lh-60">250</span>
+							<span class="color-white fz-30 upper pl-11">руб.</span>
+						</div>
+						<div class="dflex justify-center pb-60">
+							<input type="button" value="Оформить" class="transp btn btn-subscribe br-4">
+						</div>
+						<p class="color-white fz-11 lh-13 pr-20 pl-20 text-center">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
+					</div>					
 				</div>
-				<div class="pricing-premium w-30 pricing it-em height-582 justify-between">
+				<div class="pricing-premium w-30 pricing it-em justify-between">
 					<p class="pricing-title">Премиум</p>
-					<div class="dflex justify-center align-start pt-223 pb-40">
-						<span class="color-white fz-60 lh-60">500</span>
-						<span class="color-white fz-30 upper pl-11">руб.</span>
+					<div class="pricing-body">
+						<div class="dflex justify-center align-start pb-40">
+							<span class="color-white fz-60 lh-60">500</span>
+							<span class="color-white fz-30 upper pl-11">руб.</span>
+						</div>
+						<div class="dflex justify-center pb-60">
+							<input type="button" value="Оформить" class="transp btn btn-subscribe br-4">
+						</div>
+						<p class="color-white fz-11 lh-13 pr-20 pl-20 text-center">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
 					</div>
-					<div class="dflex justify-center pb-60">
-						<input type="button" value="Оформить" class="transp btn btn-subscribe br-4">
-					</div>
-					<p class="color-white fz-11 lh-13 pr-20 pl-20 text-center">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
 				</div>
 			</div>
 			<p class="pt-50 color-white text-center fz-22 tarif-fz">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету</p>
 		</section>
 		<section class="container pb-100">
-			<h2 class="h2-title fz-h2">Последние новости</h3>
-			<div class="dflex">
+			<h2>Последние новости</h2>
+			<div class="dflex flex-wrap news-align">
 				<div class="w-50 news-width news-order-1">
 					<img src="images/MusictoBeMurderedBy.png" alt="news1" class="news">
 				</div>
 				<div class="w-50 ml-60 news-width news-order-2">
-					<h3 class="h3-title-news fz-h3">Music to Be Murdered By</h3>
+					<h3>Music to Be Murdered By</h3>
 					<p class="color-grey lh-28 mb-16 news-text fz-14">Новый альбом Eminem «Music to Be Murdered By» уже доступен в нашем сервисе. На альбоме вас ждёт 20 новых треков.</p>
 					<div class="dflex mb-45 ">
 						<img src="images/avatar.png" alt="avatar" class="mr-20">
@@ -99,9 +107,10 @@
 					<a href="#" class="transp btn-news">К альбому</a>
 				</div>
 			</div>
-			<div class="dflex pt-70 news">
-				<div class="w-50 news-width news-order-4">
-					<h3 class="h3-title-news fz-h3">Ordinary Man</h3>
+
+			<div class="dflex pt-70 flex-wrap news-align">
+				<div class="w-50 news-width news-order-4 ml-60-adapt">
+					<h3>Ordinary Man</h3>
 					<p class="color-grey lh-28 mb-16 news-text fz-14">Новый альбом Eminem «Music to Be Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man. Слушайте в числе первых на Music Box.</p>
 					<div class="dflex mb-45 ">
 						<img src="images/avatar.png" alt="avatar" class="mr-20">
@@ -113,20 +122,20 @@
 					</div>
 					<a href="#" class="transp btn-news">К альбому</a>
 				</div>
-				<div class="w-50 ml-60 news-width news-order-3">
+				<div class="w-50 news-width news-order-3">
 					<img src="images/OrdinaryMan.png" alt="news2" class="news">
 				</div>
 			</div>
 		</section>
 		<section class="container pb-100">
-			<h2 class="h2-title fz-h2">Мобильное приложение</h3>
+			<h2>Мобильное приложение</h2>
 			<div class="dflex align-center mobile">
 				<div class="w-50 mobile-order-2 mobile-width">
 					<p class="fz-16 color-grey mb-25 lh-19">Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Androind и iOS</p>
 					<p class="fz-16 color-grey mb-25 lh-19">С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
 					<input type="button" value="Скачать" class="btn-download bg-btn-mobile btn br-50 color-white">
 				</div>				
-				<div class="w-50 dflex justify-center mobile-order-1 mobile-width ">
+				<div class="w-50 dflex ml-60 justify-center mobile-order-1 mobile-width mobile-img">
 					<img src="images/iphone.png" alt="iphone">
 				</div>
 			</div>
