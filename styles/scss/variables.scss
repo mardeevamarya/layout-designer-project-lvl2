@@ -715,6 +715,7 @@ h3 {
 	top: 85%;
 	left: 1%;
 	width: 20px;
+	filter: invert(100%);
 }
 
 .outline-n {
@@ -869,7 +870,17 @@ img.news {
 		justify-content: center;
 	}
 
+	.w-50-lg {
+		width: 50%;
+	}
 
+	.disco-width-lg {
+		width: 50%;
+	}
+
+	.song-w-lg {
+		width: 50%;
+	}
 }
 
 @media (max-width: 767px) {
