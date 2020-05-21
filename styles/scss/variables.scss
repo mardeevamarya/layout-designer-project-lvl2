@@ -1066,6 +1066,8 @@ img.news {
 @media (min-width: 320px) and (max-width: 374px) {
 	.container {
 			width: 320px;
+			padding-left:20px;
+			padding-right: 20px;
 		}
 
 	.nav-a-xs {
@@ -1074,7 +1076,7 @@ img.news {
 	}
 
 	.it-em-xs {
-		width: 80%;
+		width: 100%;
 		margin-bottom: 40px;
 	}
 
@@ -1084,7 +1086,7 @@ img.news {
 	}
 
 	.btn-access-xs {
-		width: 100%;
+		width: 50%;
 	}
 
 	.btn-news-xs {
@@ -1132,6 +1134,37 @@ img.news {
 		margin-bottom: 25px;
 	}
 
+	.news-width-xs {
+		width: 100%;
+	}
+
+	.mobile-width-xs {
+		width: 100%;
+	}
+
+	.w-song-xs {
+		width: 100%;
+	}
+
+	.disco-xs {
+		width: 100%;
+	}
+
+	.disco-xs-pad-r {
+		padding-right: 20px;
+	}
+
+	.disco-xs-pad-l {
+		padding-left: 20px;
+	}
+
+	.disco-margin-left-xs {
+		margin-left: 20px;
+	}
+
+	.disco-div-before-xs:before {
+		left: 16%;
+	}
 }
 
 
