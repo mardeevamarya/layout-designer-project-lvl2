@@ -1,0 +1,17 @@
+.song-img {
+	width: 50px;
+	height: 50px;
+}
+
+@media (max-width: 1023px) {
+	.w-song-lg {
+		width: 80%;
+		margin: 15px auto;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+	.w-song-xs {
+		width: 100%;
+	}
+}

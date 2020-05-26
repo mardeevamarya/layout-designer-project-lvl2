@@ -1,0 +1,10 @@
+$list1: $color-grad1 32.83%, $color-grad2 81.56%;
+
+@mixin gradient($direction, $list) { 
+  background: -webkit-linear-gradient($direction, $list);
+  background: -moz-linear-gradient($direction, $list);
+  background: -o-linear-gradient($direction, $list);
+  background: linear-gradient($direction, $list);  
+}
+
+$direction: 89.02deg;

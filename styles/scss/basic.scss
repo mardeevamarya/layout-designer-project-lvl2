@@ -1,0 +1,346 @@
+html, body, h1, h2, h3, h4, h5, p, input {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+* {
+	box-sizing: border-box;;
+}
+
+.form {
+	width: 570px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.form-input {
+  height: 50px;
+  padding-left: 20px;
+}
+
+.first-screen {
+	background-image: url(../images/banner.png);
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.catalog-screen {
+	background-image: url(../images/Morten_Harket.png);
+	min-height: 545px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn {
+	border: none;
+	outline: none;
+}
+
+.btn-green {
+	background-color: $green-main-btn-bg;
+}	
+
+.btn-access {
+	font-size: 14px;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	height: 50px;
+	text-transform: uppercase;
+}
+
+.btn-catalog {
+	width: 15%;
+	height: 50px;
+	color: $white;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.btn-purple {
+	background-color: $purple;	
+}
+
+.btn-mix::before {
+	font-family: "FontAwesome";
+	content: '\f144';
+	display: inline-block;
+	color: $white;
+	padding-right: 14px;
+}
+
+.btn-orange {
+	background-color: $bg-orange;
+}
+
+.btn-favourites::before {
+	font-family: "FontAwesome";
+	content: '\f004';
+	display: inline-block;
+	color: $white;
+	padding-right: 14px;
+}
+
+h2 {
+	color: $white;
+	text-transform: uppercase;
+	font-size: 38px;
+	text-align: center;
+	padding-bottom: 51px;
+	line-height: 45px;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	color: $white;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 35px;
+	margin-bottom: 25px;
+	color: $white;
+	margin-top: 20px;
+}
+
+.btn-download {
+  height: 50px;
+  width: 25%;
+}
+
+@media (max-width: 1023px) {
+	.flex-dir-col {
+		flex-direction: column;
+	}
+
+	.mobile-order-1-lg {
+		order: 1;
+	}
+
+	.mobile-order-2-lg {
+		order: 2;
+	}
+
+	.mobile-lg {
+		flex-direction: column;
+	}
+
+	.pt-search-lg {
+		padding-top: 20px;
+	}
+
+	.mobile-width-lg {
+		width: 80%;
+	}
+
+	.mb-input-lg {
+		margin-bottom: 20px;
+	}
+
+	.w-50-lg {
+		width: 50%;
+	}
+
+	.justify-start-lg {
+	  justify-content: flex-start;
+	}
+
+
+}
+
+@media (max-width: 767px) {
+	.input-width {
+		width: 100% !important;
+	}
+
+	.song-w-md {
+		width: 50%;
+	}
+
+	.btn-access-md {
+		width: 50%;
+	}
+
+	.btn-download-md {
+		width: 20%;
+	}	
+
+	.btn-catalog-md {
+		width: 40%;
+	}
+
+	.disco-width-md {
+		width: 50%;
+	}
+
+	.mr-0-md {
+		margin-right: 0px;
+	}
+
+	.justify-center-md {
+		justify-content: center;
+	}
+
+	.input-md {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+	.container {
+		width: 1024px;
+	}
+
+	.img-lg {
+		display: flex;
+	}
+	
+	.news-align-lg {
+		justify-content: center;
+	}
+
+	.pr-20-lg {
+		padding-right:20px;
+	}
+
+	.pl-20-lg {
+		padding-left: 20px;
+	}
+
+	.btn-catalog-lg {
+		width: 22%;
+	}
+
+	.form {
+		width: 570px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.container {
+		width: 768px;
+	}
+
+	.form {
+		width: 570px;
+	}
+
+	.h2-m-b-lg {
+		margin-bottom: 35px;
+	}
+
+	.btn-catalog-lg {
+		width: 22%;
+	}
+
+	.form {
+		width: 570px;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+	.container {
+			width: 425px;
+	}
+
+	.form {
+		width: 100%;
+	}
+
+	.input-md {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+	.container {
+			width: 375px;
+	}
+
+	.form {
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+	.container {
+			width: 320px;
+			padding-left:20px;
+			padding-right: 20px;
+	}
+
+	.input {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.btn-access-xs {
+		width: 100%;
+	}
+
+	.btn-download-xs {
+		width: 100%;
+	}	
+
+	.w-100-xs {
+		width: 100%;
+	}
+
+	.mobile-xs {
+		margin-left: 0px;
+	}
+
+	h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	h2 {
+		font-size: 20px !important;
+	}
+
+	.btn-catalog-xs {
+		width: 100%;
+	}
+
+	.flex-dir-xs {
+		flex-direction: column;
+	}
+
+	.btn-bottom-xs {
+		margin-bottom: 25px;
+	}
+
+	.mobile-width-xs {
+		width: 100%;
+	}
+
+	.form {
+		width: 100%;
+	}
+
+}
